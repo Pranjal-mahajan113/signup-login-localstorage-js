@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            <header class="signup-head">
+                <h1>SignUp</h1>
+            </header>
+            <main class="sign-body">
+                <form id="signupForm">
+                    <div>
+                        <label for="name">Name</label>
+                        <input type="text" placeholder="Enter name here" id="name" autocomplete="off" />
+                        <!-- <i class="fa-solid fa-xmark"></i> -->
+                        <!-- <i class="fa-solid fa-check"></i> -->
+                        <span id="nameerror"></span>
+
+                    </div>
+                    <div>
+                        <label for="email">Email</label>
+                        <input type="email" placeholder="xyz@email.com" id="email" autocomplete="off" />
+                        <span id="emailerror"></span>
+                    </div>
+                    <div>
+                        <label for="password">Password</label>
+                        <input type="password" placeholder="At least 8 character" id="password" />
+                        <span id="passerror"></span>
+                    </div>
+                    <div>
+                        <input type="submit" value="Create account" id="submitbtn">
+                    </div>
+
+
+
+
+
+                </form>
+            </main>
+            <footer class="sign-footer">
+                <div>Already have an account? <a href="login.html">Login</a></div>
+            </footer>
+        </div>
+    </div>
+
+</body>
+<script src="app.js"></script>
+
+
+</html>

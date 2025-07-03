@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="container">
+    <div class="box">
+        <header class="signup-head">
+            <h1>Login Form</h1>
+        </header>
+        <main class="sign-body">
+            <form id="loginForm">
+                <div>
+                    <label for="loginEmail">Email</label>
+                    <input type="email" placeholder="Enter your email" id="loginEmail"  />
+                    <span id="loginEmailError"></span>
+                </div>
+                <div>
+                    <label for="loginPassword">Password</label>
+                    <input type="password" placeholder="Enter your password" id="loginPassword" />
+                    <span id="loginPassError"></span>
+
+
+                </div> 
+                <div>
+                    <input type="submit" value="Login" > 
+                </div>
+            </form>
+
+
+        </main>
+         <footer class="sign-footer">
+        <div>Don't have an account? <a href="index.html">Sign Up</a></div>
+      </footer>
+
+    </div>
+   </div>
+    <script src="app.js"></script>
+</body>
+</html>
